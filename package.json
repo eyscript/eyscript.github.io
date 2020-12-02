@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel index.html -p 8000",
-  "build": "parcel build index.html --out-dir dist --public-url /<repo-name>/",
+  "build": "parcel build index.html --out-dir dist --public-url /eyscript/",
   "predeploy": "npm run build",
   "deploy": "gh-pages -b master -d dist"
   },
