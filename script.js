@@ -653,7 +653,7 @@ acum++;
      
      this.input.on("pointerdown", ()=>{
         this.time.paused=false;
-       spr_manito.on("")
+       
       })
             
       
@@ -1109,7 +1109,7 @@ let config = {
     height: 600,
     type: Phaser.AUTO,
     parent: 'game',
-    scene: [SceneTextTale],
+    scene: [SceneEntry, SceneMenulevel, SceneNextStation,  SceneViewTrain, SceneTextTale,  GMechanincs1, GMechanincs2,  SceneFeedBack],
     dom :{
         createContainer: true
       }
