@@ -3,13 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://eyscript.github.io/project_gamev1/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel index.html -p 8000",
-  "build": "parcel build index.html --out-dir dist --public-url /eyscript/",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -b master -d dist"
+    "start": "node server"
   },
   "author": "",
   "license": "ISC",
@@ -18,3 +14,4 @@
     "phaser": "^3.24.1"
   }
 }
+
